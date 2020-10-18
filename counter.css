@@ -1,0 +1,45 @@
+.container {
+  margin: 200px 500px;
+}
+
+h1 {
+  font-family: sans-serif;
+  font-size: 40px;
+  letter-spacing: 1px;
+  margin-left: 30px;
+}
+
+#value {
+  font-family: sans-serif;
+  font-size: 80px;
+  letter-spacing: 1px;
+  margin-left: 90px;
+}
+
+.button-container {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  margin-left: -80px;
+}
+
+.btn {
+  margin-right: 20px;
+  padding: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-transform: uppercase;
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  border: 3px solid black;
+  border-radius: 10px;
+  outline: none;
+  cursor: pointer;
+}
+
+.btn:hover {
+  color: white;
+  background-color: black;
+}
